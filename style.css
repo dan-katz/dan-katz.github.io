@@ -1,0 +1,123 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #008080;
+	/*background-color: #00b700;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	margin: 0;
+	overflow: hidden;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	display:inline-block;
+	list-style-type: none;
+
+}
+
+nav ul li a {
+	/*color: white;*/
+	/*color: rgba(255,255,255,.6);*/
+	display: block;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+}
+
+#name {
+	color: orange;
+	text-align: center;
+}
+
+.me-pic {
+	width:300px;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+
+.page-link {
+	text-align: center
+}
+
+div.links a:link {
+	color: white;
+}
+
+div.links a:visited {
+	color: white;
+}
+
+div.links a:hover {
+	color: blue;
+}
+
+.page-header {
+	text-align: center;
+	color: white;
+}
+
+.email {
+	text-align: center;
+}
+
+#resume {
+	color:white;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+#bio {
+	color: white;
+	margin-left: 20%;
+	margin-right: 20%
+	/*text-align: center;*/
+}
+
+.larger {
+	font-size: larger;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+li.current-page {
+	color:white;
+}
+
+li.current-page a:visited {
+	color:white;
+}
+li.current-page a:hover {
+	color:white;
+}
+
+
+li.not-current-page a:link {
+	color:rgba(255,255,255,.6);
+}
+
+li.not-current-page a:visited {
+	color: rgba(255,255,255,.6);
+}
+
+li.not-current-page a:hover {
+	color: rgba(255,255,255,.8);
+}
+
+.center {
+	text-align: center;
+}
