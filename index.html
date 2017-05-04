@@ -3,30 +3,115 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://use.fontawesome.com/0f7c8d3ba3.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat|Hind:400,500,600" rel="stylesheet" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<link rel="icon" type="image/png" href="favicon.png?">
 		<title>Daniel Katz</title>
 	</head>
 	<body>
-		<div class="navbar">
-			<nav>
-				<ul>
-					<li class="current-page"><a href="index.html">Home</a></li>
-					<li class="not-current-page"><a href="bio.html">About Me</a></li>
-					<li class="not-current-page"><a href="resume.html">Resume</a></li>
-				</ul>
-			</nav>
+		<div id="top-container">
+			<div class="top-container-text">
+				<em><h3>Hey, I'm</h3></em>
+				<h1 id="name">Dan Katz</h1>
+				<br />
+				<div class="buttons">
+					<a href="myresume.pdf" target="blank" <button class="fa fa-fw fa-file-pdf-o fa-2x white"</button></a>
+					<a href="https://www.linkedin.com/in/dan-katz/" target="_blank"<button class="fa fa-fw fa-linkedin fa-2x white fill"</button></a>
+					<a href="https://www.github.com/dan-katz" target="_blank"<button class="fa fa-fw fa-github fa-2x white"</button></a>
+					<a href="mailto: danielkatz125@gmail.com" target="_blank"<button class="fa fa-fw fa-envelope-o fa-2x white"</button></a>
+					</div>
+			</div>
 		</div>
-		<img src="me.jpg" alt="Picture of me" class="me-pic">
-		<br>
-		<h1 class="page-header">Daniel Katz</h1>
-		<div class="links">
-			<h2 class="page-link">
-				<a href="resume.html">View Resume</a>
-			</h2>
-			<h2 class="page-link">
-				<a href="bio.html">View Bio</a>
-			</h2>
-		</div>
-	</body>
+		<div id="about-me-container">
+			<h1 class="section-header">About Me</h1>
+			<div class="about-header-underline"></div>
+				<div id="bio">
+					<img src="medavis.png" alt="Me" class="about-me-pic"/>
+					<p class="larger">I am a sophomore at Tufts University, in the School of Engineering, pursuing a Bachelor of Science in Computer Science. </p>
+					<p class="larger">I really like learning computer languages and technologies. I have programmed in multiple languages, including C++, Javascript, HTML, and Swift and am always looking for new languages to learn.</p>
+					<p class="larger">Along with coding, one my biggest passions is reading. I try to read a book a week. Currently I'm on a big non-fiction grind but still try to throw in a fiction book here and there.
+					</p>
+					<p class="larger">When not in front of a computer programming or reading, I can often be found outside, playing sports, taking touristy pictures of the Grand Canyon, or posing for pictures in subway stations. I particularly like to play basketball and tennis.
+						I also like to run and hike in the mountains.</p>
+				</div>
+			</div>
+		<div id="projects-container">
+			<hr class="book-break-line"/>
+			<br  />
+			<br  />
+			<h1 class="section-header">Projects</h1>
+			<div class="projects-header-underline"></div>
+			<br />
+			<br />
+			<div class="container">
+				<a href="https://itunes.apple.com/us/app/tufts-daily/id1231524256?mt=8" target="blank"><img class="project-pic" src="dailyapp.png" alt="dailyapp" /></a>
+				<div class="project-info">
+					<a href="https://itunes.apple.com/us/app/tufts-daily/id1231524256?mt=8" target="blank"><h2>The Tufts Daily App</h2></a>
+					<h5>The Tufts Daily app allows users to browse articles posted to the
+						Tufts Daily website using a modern and intuitive interface.
+						Users can also browse menus for Tufts Dining halls and track the
+						location of the various Tufts shuttles.</h5>
+					<h5>The app was built using React Native and was part of
+					<a href="https://www.facebook.com/JumboCode/" target="_blank">JumboCode</a> 2017</h5>
+				<!--	<h5><span class="green">The what:</span> Creating a cross platform mobile app for Tufts' larget news publication </h5>
+					<h5><span class="green">The why:</span> Will increase <a href="https://tuftsdaily.com/" target="_blank"> The Daily's</a> readership and create a more well-informed campus</h5>
+					<h5><span class="green">The how:</span> Using React Native</h5>
+					<h5><span class="green">The who:</span> Me and my <a href="https://www.facebook.com/JumboCode/" target="_blank">JumboCode</a> team</h5>-->
+					<br />
+				</div>
+			</div>
+			<br />
+			<br  />
+			<hr class="book-break-line"/>
+			<br  />
+      <br />
+			<br />
+      <div class="container">
+				<a href="https://geotufts.herokuapp.com" target="blank"><img class="project-pic" src="geotufts.png" alt="Geo Tufts" /></a>
+				<div class="project-info">
+					<a href="https://geotufts.herokuapp.com" target="blank"><h2>GeoTufts</h2></a>
+					<h5>GeoTufts is a Tufts-based location guessing game. Players are shown
+					pictures of 10 locations on campus and place a marker on a map where
+					they think the picture was taken. The closer they are, the more points they get
+					If they get stuck they can use hints, which cost points to use.</h5>
+					<h5>The app was built using EJS, Node.JS, and MongoDB</h5>
+					<p>
+						GeoTufts was my final project for my Web Programming class
+					</p>
+					<!--<h5><span class="green">The what:</span> Tufts location guessing game </h5>
+					<h5><span class="green">The why:</span> Fun way to test campus knowledge</h5>
+					<h5><span class="green">The how:</span> Node.JS and EJS</h5>-->
+					<br />
+				</div>
+			</div>
+			<br />
+			<br  />
+			<hr class="book-break-line"/>
+			<br  />
+			<br />
+			<br />
+			<div class="container">
+				<img class="project-pic" src="homeworkxgroup.png" alt="homeworkx" />
+				<div class="project-info">
+					<h2>Homework X</h2>
+					<h5>Homework X is a homework tracker tool that I use to stay on top of my assignments</h5>
+					<h5>As due dates approach assignments change color from green to yellow to orange to red.
+					Their corresponding emojis also become more intense.</h5>
+					<h5>Assignments can be sorted by due date or class and notification reminders can be set.</h5>
+					<h5>I built this app as a way to keep track of homework and dive into mobile development. The app was made using Swift</h5>
+					<!--<h5><span class="green">The what:</span> Created a homework tracking app for iOS. Assignments gradually change from green, to orange, to red as the due date approaches.</h4>
+					<h5><span class="green">The why:</span> To increase my productivity and gain experience with Swift</h4>
+					<h5><span class="green">The how:</span> Used Swift and XCode</h4>
+					<h5><span class="green">The who:</span> Just me</h5>-->
+					<br />
+				</div>
+			</div>
+</div>
+</body>
 </html>
