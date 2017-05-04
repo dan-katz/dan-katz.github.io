@@ -10,7 +10,7 @@ body {
 #top-container {
 	height: 100vh;
 	width: 100vw;
-	background: url("../grandcanyon.png");
+	background: url("../assets/images/grandcanyon.png");
 	background-size: cover; /* or contain depending on what you want */
   background-position: center center;
   background-repeat: no-repeat;
